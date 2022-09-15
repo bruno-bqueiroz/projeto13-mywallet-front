@@ -2,6 +2,7 @@ import GlobalStyle from "../style/globalStyles";
 import UserContext from '../context/UserContext'; 
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Login from "./Login";
 import Cadastro from "./Cadastro";
 import Registros from "./Registros";
